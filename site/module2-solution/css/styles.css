@@ -36,6 +36,11 @@ header h1:hover {
 	background-color: #FFFFFF;
 }
 
+header h1:active {
+	color: #6D00FF;
+	background-color: #FFFFFF;
+}
+
 div.row {
 	width: 90%;
 	margin-top: 40px;
@@ -67,6 +72,21 @@ div.row {
 }
 
 .container:hover p.description{
+	color: #6D00FF;
+}
+
+
+.container:active {
+	background-color: white;
+}
+
+.container:active p.kitchen{
+	border-color: white;
+	background-color: #6D00FF;
+	color:white;
+}
+
+.container:active p.description{
 	color: #6D00FF;
 }
 
